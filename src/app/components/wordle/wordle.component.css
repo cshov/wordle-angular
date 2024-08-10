@@ -1,0 +1,62 @@
+:host {
+  p {
+    text-align: center;
+  }
+
+  .row {
+    justify-content: center;
+    margin: 0 auto 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    .letter-box {
+      width: 40px;
+      height: 40px;
+      border: 1px solid black;
+      background: white;
+      text-transform: capitalize;
+      padding: 10px;
+      text-align: center;
+      box-sizing: border-box;
+      font-size: 20px;
+      line-height: 1;
+
+      &.green {
+        background: green;
+      }
+
+      &.yellow {
+        background: yellow;
+      }
+
+      &.wrong {
+        background: gray;
+      }
+    }
+  }
+
+  .keyboard {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 32px;
+    padding-top: 24px;
+    border-top: 1px solid black;
+
+    .keyboard-row {
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      gap: 12px;
+
+      button {
+        width: 24px;
+        color: white;
+        background: black;
+        border: none;
+        text-transform: capitalize;
+      }
+    }
+  }
+}

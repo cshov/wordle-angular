@@ -1,0 +1,14 @@
+:host {
+  .main {
+    background: #fff;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 440px;
+    min-height: 100%;
+
+    h1 {
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+}
